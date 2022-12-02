@@ -2,12 +2,17 @@ header {
   position: relative;
   height: 100vh;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url("../../assets/img/Bakcground_Header.jpg")no-repeat center center/cover;
 }
 
 .navbar {
   display: flex;
-  align-items: center;
   padding: 15px 0;
+  align-items: center;
+
 
   @include for-size(xxs) {
     align-items: center;
@@ -15,10 +20,15 @@ header {
   }
   &__wrapper {
     padding: 0 80px;
-    background: #1e1e1e;
+    background: rgba(8, 8, 8, 0.5);
     @include for-size(sm) {
       padding: 0 20px;
     }
+  }
+
+  &__links {
+    justify-content: center;
+    padding-left: 200px;
   }
 
   &__menu {
@@ -43,13 +53,6 @@ header {
   &__telephone {
     cursor: pointer;
   }
-}
-
-header{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: url("../../assets/img/Bakcground_Header.jpg")no-repeat center center/cover;
 }
 
 .header {

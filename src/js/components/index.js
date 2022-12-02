@@ -1,2 +1,1 @@
-
-import './headertex/headertex'
+import './navbarHead/navbarHead'
