@@ -7,7 +7,7 @@ let navbarHeadHtml = generalnavbarHead.map((a) => {
        <div class="navbar__wrapper">
        <div class="navbar">
            <div class="navbar__logo">
-               <img src="..." alt="image">
+               <img src=" ${a.img} " alt="image">
            </div>
            <div class="navbar__links">
                <a href="#" class="btn btn-secondary"> ${a.text1} </a>
