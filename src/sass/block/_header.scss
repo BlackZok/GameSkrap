@@ -28,6 +28,47 @@ header {
 
   &__links {
     justify-content: center;
+
+    .btn{
+      background-color: rgb(136, 136, 136);
+      color: white;
+      box-shadow: 0 6px 0 rgb(60, 60, 60);
+      transition: 0.5s ease-in-out;
+    }
+
+    .btn:hover{
+      background-color: rgb(13, 110, 253);
+      transform: translateY(3px);
+      box-shadow: 0 3px 0 rgb(60, 60, 60);
+    }
+  }
+
+  &__reg {
+
+    .inout {
+      background-color: #0d6efd;
+      color: white;
+      box-shadow: 0 6px 0 rgb(60, 60, 60);
+      transition: 0.5s ease-in-out;
+    }
+
+    .inout:hover{
+      transform: translateY(3px);
+      box-shadow: 0 3px 0 rgb(60, 60, 60);
+    }
+
+    .reg {
+      background-color: rgb(136, 136, 136);
+      color: white;
+      box-shadow: 0 6px 0 rgb(60, 60, 60);
+      transition: 0.5s ease-in-out;
+    }
+
+    .reg:hover{
+      background-color: #0d6efd;
+      transform: translateY(3px);
+      box-shadow: 0 3px 0 rgb(60, 60, 60);
+    }
   }
 
   &__menu {

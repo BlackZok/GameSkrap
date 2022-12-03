@@ -10,13 +10,13 @@ let navbarHeadHtml = generalnavbarHead.map((a) => {
                <img src=" ${a.img} " alt="image">
            </div>
            <div class="navbar__links">
-               <a href="#" class="btn btn-secondary"> ${a.text1} </a>
-               <a href="#" class="btn btn-secondary"> ${a.text2} </a>
-               <a href="#" class="btn btn-secondary"> ${a.text3} </a>
+               <a href="#" class="btn"> ${a.text1} </a>
+               <a href="#" class="btn"> ${a.text2} </a>
+               <a href="#" class="btn"> ${a.text3} </a>
            </div>
            <div class="navbar__reg">
-               <a href="#" class="btn btn-primary">  ${a.text4} </a>
-               <a href="#" class="btn btn-secondary">  ${a.text5} </a>
+               <a href="#" class="btn inout">  ${a.text4} </a>
+               <a href="#" class="btn reg"> ${a.text5} </a>
            </div>
        </div>
     </div>
